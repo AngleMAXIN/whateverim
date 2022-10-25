@@ -37,7 +37,7 @@ func socketHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func home(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Index Page")
+	fmt.Fprintf(w, "Index Page") 
 }
 
 func main() {
